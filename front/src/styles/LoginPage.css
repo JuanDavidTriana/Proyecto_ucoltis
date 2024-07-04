@@ -1,0 +1,31 @@
+
+
+.login-card {
+    border: none;
+    border-radius: 10px;
+    padding: 40px 30px;
+    background-color: #ffffff;
+}
+
+.login-card .text-center {
+    color: #002552;
+}
+
+.login-card .btn-primary {
+    background-color: #002552;
+    border-color: #002552;
+}
+
+.login-card .btn-primary:hover {
+    background-color: #004080;
+    border-color: #004080;
+}
+
+.login-card .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.login-card .form-control {
+    padding: 10px;
+    font-size: 1rem;
+}

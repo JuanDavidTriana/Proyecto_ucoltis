@@ -1,0 +1,38 @@
+
+.loading-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.loading-container h5 {
+    margin-right: 10px;
+}
+
+.product-image {
+    height: 180px;
+    width: auto;
+    object-fit: cover;
+}
+
+.checkout-page h3 {
+    color: #002552;
+}
+
+.checkout-page .card-title {
+    color: #002552;
+}
+
+.checkout-page .card-text {
+    color: #28a745;
+}
+
+.checkout-page .btn-link {
+    color: #007bff;
+}
+
+.checkout-page .btn-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}

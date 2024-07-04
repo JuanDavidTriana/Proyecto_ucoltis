@@ -1,0 +1,38 @@
+.product-card {
+    border: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product-image {
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-title {
+    color: #002552;
+}
+
+.product-description {
+    color: #002552;
+}
+
+.product-price {
+    color: #002552;
+}
+
+.buy-now-button {
+    background-color: #002552;
+    border-color: #002552;
+    color: #fff;
+}
+
+.buy-now-button:hover {
+    background-color: #004080;
+    border-color: #004080;
+}

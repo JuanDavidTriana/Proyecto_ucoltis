@@ -1,0 +1,36 @@
+.orders-table {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table-header {
+    background-color: #002552;
+    color: #ffffff;
+    text-align: center;
+}
+
+.table-header th {
+    padding: 12px;
+    font-size: 16px;
+}
+
+.orders-table tbody tr {
+    transition: background-color 0.2s ease-in-out;
+}
+
+.orders-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.loading-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.loading-container h5 {
+    margin-right: 10px;
+}

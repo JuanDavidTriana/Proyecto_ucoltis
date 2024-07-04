@@ -1,0 +1,50 @@
+.all-addresses-page {
+    padding: 20px;
+}
+
+.loading-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.loading-container h5 {
+    margin-right: 10px;
+}
+
+.address-card {
+    border: 1px solid #C6ACE7;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.address-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.delete-button-css, .edit-button-css {
+    cursor: pointer;
+    color: #007bff;
+}
+
+.delete-button-css:hover {
+    color: #dc3545;
+}
+
+.edit-button-css:hover {
+    color: #28a745;
+}
+
+.button-focus-css {
+    transition: all 0.2s;
+}
+
+.button-focus-css:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
